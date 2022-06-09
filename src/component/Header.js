@@ -8,8 +8,7 @@ const Header = () => {
             <h1 className={`${headerCSS.logo} hidden md:block`}>Pokemaru</h1>
             <div className={`${headerCSS.link}`}>
                 <Link className={`${headerCSS.navLink}`} to='/'>Home</Link>
-                <Link className={`${headerCSS.navLink}`} to='/allResults'>Pokemons</Link>
-                <Link className={`${headerCSS.navLink}`} to='/about'>About</Link>
+                <Link className={`${headerCSS.navLink}`} to='/searchPokemon'>Search Pokemon</Link>
             </div>
         </div>
     );

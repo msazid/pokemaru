@@ -1,6 +1,6 @@
 import React from 'react';
-const Pokemon = ({pokemon}) => {
-    console.log(pokemon);
+const Pokemon = () => {
+    
     return (
         <div>
            

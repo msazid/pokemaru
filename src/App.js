@@ -11,8 +11,7 @@ function App() {
       <Header/>
       <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/allResult' element={<Main/>}/>
-          <Route path='/about' element={<Main/>}/>
+          <Route path='/searchPokemon' element={<Main/>}/>
       </Routes>
     </div>
     );

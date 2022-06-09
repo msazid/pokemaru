@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,700;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.homeBG{
+    background-image: url('../../Assets/background/backgrounPokemaru.jpg');
+    height: 94.5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-color:rgba(0,0,0,.6);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.bannerTitle{
+    color: white;
+    font-size: 65px;
+    font-family: 'lato';
+    font-style: italic;
+}
+.showAllResultBtn{
+    background: #630606;
+    color: aliceblue;
+    font-family: 'lato';
+    padding: 10px;
+    text-align: center;
+}

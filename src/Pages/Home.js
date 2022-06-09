@@ -6,7 +6,7 @@ const Home = () => {
         <div className={styleCSS.homeBG}>
            <div className='text-center'>
            <h1 className={styleCSS.bannerTitle}>Welcome To <span className='text-red-500'>Pokemaru</span></h1>
-           <Link className={styleCSS.showAllResultBtn} to='/searchPokemon'>Search Pokemon</Link>
+           <Link className={styleCSS.showAllResultBtn} to='/searchPokemon'>Find Your Pokemon</Link>
            </div>
         </div>
     );
